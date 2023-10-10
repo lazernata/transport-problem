@@ -1,0 +1,27 @@
+
+.shiny-notification {
+             position:fixed;
+             top: calc(50%);
+             left: calc(50%);
+             }
+             
+.bttn-jelly.bttn-success {
+    background: #00a65a;
+    color: #fff;
+}
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #2f5e3d;
+    outline: 0;
+}
+
+a {
+    color: #36762e;
+}
+.main-header .logo {
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-weight: bold;
+  font-size: 18px;
+}

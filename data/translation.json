@@ -1,0 +1,241 @@
+{
+  "cultural_date_format": "%d-%m-%Y",
+  "languages": ["es", "en"],
+  "translation": [
+      {"es": "El Problema de Transporte", "en": "Transportation problem"},
+      {"es": "Guía", "en": "Guide"},
+      {
+        "es": "Descripción del Shiny",
+        "en": "Shiny's description"
+      },
+      {
+        "es": "Cambiar el idioma",
+        "en": "Change the lenguage"
+      },
+      {
+        "es": "Las Instrucciones",
+        "en": "Instructions"
+      },
+      {
+        "es": "Pasos a seguir:",
+        "en": "Steps to follow:"
+      },
+      {
+        "es": "1. Seleccione el número de filas (origenes) y el número de columnas (destinos) del problema.",
+        "en": "1. Select the number of rows (origins) and the number of columns (destinations) of the problem."
+      },
+      {
+        "es": "2. Seleccione el tipo del problema:",
+        "en": "2. Select the problem type:"
+      },
+      {
+        "es": "El problema de transporte, el problema de transporte con transbordo, el problema de asignación.",
+        "en": "The problem of transport, the problem of transport with transhipment, the problem of assignment."
+      },
+      {
+        "es": "3. Seleccione si es el problema de maximización o minimización. La opción predefinida es ",
+        "en": "3. Select whether it is maximization or minimization problem. The default option is "
+      },
+      {
+        "es": "minimizar.",
+        "en": "minimization"
+      },
+      {
+        "es": "4. Introduce la matriz de costos del transporte balanceada, las cantidades de la oferta y de la demanda. Deben ser los valores numéricos positivos.",
+        "en": "4. Enter the balanced transportation cost matrix, supply and demand quantities. They should be positive numerical values."
+      },
+      {
+        "es": "Marco teórico",
+        "en": "Theory information"
+      },
+      {
+        "es": "Introducción",
+        "en": "Introduction"
+      },
+      {
+        "es": "El problema de transporte o de distribución",
+        "en": "The transport or distribution problem"
+      },
+      {
+        "es": " es un modelo particular del problema de programación lineal, y se refiere a encontrar la forma para minimizar los costos de transporte para la distribución de un bien determinado desde los puntos de abastecimiento, que se llaman orígenes, a los puntos de recepción, que tienen el nombre de destinos. Un caso particular del problema de transporte es",
+        "en": "is a particular model of the linear programming problem, and refers to finding a way to minimize the transportation costs for the distribution of a given good from the points of supply, which are called origins, to the points of receipt, which are called destinations. from the points of supply, which are called origins, to the points of reception, which are called destinations. A particular case of the transportation problem is"
+      },
+      {
+        "es": "el problema de asignación",
+        "en": "the problem of assignment."
+      },
+      {
+        "es": ", que consiste en distribuir de forma óptima las tareas a los trabajadores y el problema de transbordo, cuando las mercancías tienen que pasar por los puntos intermedios para llegar a su destino final. Cabe destacar que también tiene unas cuantas aplicaciones no tradicionales. Por ejemplo, los problemas de control de producción y del servicio de afilado de herramientas también pueden ser planteados y resueltos como problemas de transporte.",
+        "en": ", it also has a number of non-traditional applications, which consists of optimally distributing tasks to workers and the problem of transshipment, when goods have to pass through intermediate points to reach their final destination. It should be noted that it also has a few non-traditional applications. For example, production control and tool sharpening service problems can also be posed and solved as transportation problems."
+      },
+      {
+        "es": "Origen del problema",
+        "en": "Origin of the problem"
+      },
+      {
+        "es": "El problema del transporte surgió en la Investigación de Operaciones en la década de 1940. Fue planteado por Hitchcock en 1941, luego por Kantorovich y Koopmans. El modelo de Hitchcock trata de encontrar el costo más bajo de enviar productos desde diferentes fábricas a diferentes ciudades. Danzig desarrolló el primer método de programación lineal para resolver este problema en 1951.",
+        "en": "The transportation problem emerged in Operations Research in the 1940s. It was raised by Hitchcock in 1941, then by Kantorovich and Koopmans. Hitchcock's model tries to find the lowest cost of shipping products from different factories to different cities. Danzig developed the first linear programming method to solve this problem in 1951."      
+      },
+      {
+        "es": "El problema de transporte",
+        "en": "Transport problem"
+      },
+      {
+        "es": "- Se puede enviar el producto del origen al destino por un costo determinado.",
+        "en": "- Product can be shipped from origin to destination for a given cost."
+      },
+      {
+        "es": "- Se conocen los valores de las cantidades ofertadas y demandadas.",
+        "en": "- The values of the quantities offered and demanded are known."
+      },
+      {
+        "es": "- Este problema puede ser resuelto por ",
+        "en": "- This problem can be solved by "
+      },
+      {
+        "es": "el método simplex",
+        "en": "the simplex method"
+      },
+      {
+        "es": "el algoritmo Stepping-Stones",
+        "en": "the Stepping-Stones algorithm"
+      },
+      {
+        "es": "el método de la esquina noroeste",
+        "en": "the northwest corner method"
+      },
+      {
+        "es": "o con ",
+        "en": "o with "
+      },
+      {
+        "es": "el método de Vogel.",
+        "en": "Vogel's method."
+      },
+      {
+        "es": "- Las rutas directas no existen o son costosas.",
+        "en": "- Direct routes do not exist or are expensive."
+      },
+      {
+        "es": "- Resulta necesario hacer un transbordo para realizar la entrega.",
+        "en": "- It turns out to be necessary to transship to make the delivery."
+      },
+      {
+        "es": "- El problema con transbordo se resuelve como un problema de transporte habitual.",
+        "en": "- The problem with transshipment is solved as a regular transportation problem."
+      },
+      {
+        "es": "El problema de transporte con transbordo",
+        "en": "The problem of transportation with transshipment."
+      },
+      {
+        "es": "El problema de asignación",
+        "en": "The assignment problem"
+      },
+      {
+        "es": "- Ahora los orígenes son las personas y los destinos son tareas a realizar.",
+        "en": "- Now the origins are people and the destinations are tasks to be performed."
+      },
+      {
+        "es": "- Cada tarea puede ser asignada sólo a un trabajador, y cada trabajador puede hacer sólo una tarea.",
+        "en": "- Each task can be assigned to only one worker, and each worker can do only one task."
+      },
+      {
+        "es": "- Para la solución se utiliza ",
+        "en": "- For the solution is used "
+      },
+      {
+        "es": "el método húngaro.",
+        "en": "the Hungarian method."
+      },
+      {
+        "es": "Figura 1: Representación gráfica del problema de transporte",
+        "en": "Figure 1: Graphical representation of the transportation problem."
+      },
+      {
+        "es": "Figura 2: Representación gráfica del problema de transporte con transbordo",
+        "en": "Figure 2: Graphical representation of the transportation problem with transshipment."
+      },
+      {
+        "es": "Figura 3: Representación gráfica del problema de asignación",
+        "en": "Figure 3: Graphical representation of the assignment problem."
+      },
+      {
+        "es": "Número de filas:",
+        "en": "Number of rows:"
+      },
+      {
+        "es": "Número de columnas:",
+        "en": "Number of columns:"
+      },
+      {
+        "es": "Seleccione el tipo de problema",
+        "en": "Select the type of problem"
+      },
+      {
+        "es": "El problema con transbordo",
+        "en": "The problem with transshipment"
+      },
+      {
+        "es": "¿Cuál es el objetivo del problema?",
+        "en": "What is the objective of the problem?"
+      },
+      {
+        "es": "Maximizar",
+        "en": "Maximize"
+      },
+      {
+        "es": "Minimizar",
+        "en": "Minimize"
+      },
+      {
+        "es": "Solución",
+        "en": "Solution"
+      },
+      {
+        "es": "Origen: ",
+        "en": "Origin: "
+      },
+      {
+        "es": "Destino: ",
+        "en": "Destination: "
+      },
+      {
+        "es": "Ofertas",
+        "en": "Offers"
+      },
+      {
+        "es": "Demandas",
+        "en": "Demands"
+      },
+      {
+        "es": "Signos",
+        "en": "Signs"
+      },
+      {
+        "es": "El problema no está balanceado",
+        "en": "The problem isn't balanced."
+      },
+      {
+        "es": "El Valor Objetivo ",
+        "en": "The Objective Value "
+      },
+      {
+        "es": "Este Shiny app ha sido elaborado por ",
+        "en": "This Shiny app has been developed by "
+      },
+      {
+        "es": ", estudiante del Grado en Estadística y Empresa de la Universidad de Jaén como parte del Trabajo Fin de Grado del curso 2022-23. El tutor académico: María Virtudes Alba Fernandez",
+        "en": ", student of the Degree in Statistics and Business at the University of Jaén as part of the Final Degree Project of the academic year 2022-23. The academic tutor: María Virtudes Alba Fernandez"
+      },
+      {
+        "es": "5. Introduce las direcciones de las restricciones. Las posibles opciones son: ",
+        "en": "5. Enter the addresses of the constraints. The possible options are: "
+      },
+      {
+        "es": "6. Obtiene la solución!",
+        "en": "6. Get the solution!"
+      }
+      
+    ]
+}

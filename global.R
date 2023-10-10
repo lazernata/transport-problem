@@ -1,0 +1,15 @@
+library(shiny)
+library(shinyMatrix)
+library(shinyWidgets)
+library(shinydashboard)
+library(shinyjs)
+library(shinyvalidate)
+library(lpSolve)
+library(DT)
+library(rsconnect)
+library(stringr)
+library(shiny.i18n)
+
+# app_envir <- new.env()
+path <- getwd()
+

@@ -1,0 +1,12 @@
+name: Transport_ENG
+title: Transport_ENG
+username: natalialazareva
+account: natalialazareva
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 9879328
+bundleId: 7689601
+url: https://natalialazareva.shinyapps.io/Transport_ENG/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
